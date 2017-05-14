@@ -1,0 +1,44 @@
+= Cheatsheets
+
+[[AccountMessage]]
+== AccountMessage
+
+++++
+ Created by Michal Kit on 14.05.2017.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[account]]`account`|`String`|-
+|[[amount]]`amount`|`Number (Double)`|-
+|[[transaction]]`transaction`|`String`|-
+|[[transfer]]`transfer`|`String`|-
+|[[type]]`type`|`link:enums.html#Type[Type]`|-
+|===
+
+[[Transfer]]
+== Transfer
+
+++++
+ Created by Michal Kit on 14.05.2017.
+++++
+'''
+
+[cols=">25%,^25%,50%"]
+[frame="topbot"]
+|===
+^|Name | Type ^| Description
+|[[amount]]`amount`|`Number (Double)`|-
+|[[createdAt]]`createdAt`|`Number (Long)`|-
+|[[fromAccount]]`fromAccount`|`String`|-
+|[[id]]`id`|`String`|-
+|[[issuer]]`issuer`|`String`|-
+|[[message]]`message`|`String`|-
+|[[status]]`status`|`link:enums.html#Status[Status]`|-
+|[[toAccount]]`toAccount`|`String`|-
+|[[transaction]]`transaction`|`String`|-
+|===
+

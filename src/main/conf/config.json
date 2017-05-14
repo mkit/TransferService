@@ -1,0 +1,5 @@
+{
+  "eb.accounts.address": "accounts",
+  "listen.port" : 8091,
+  "listen.host" : "127.0.0.1"
+}
